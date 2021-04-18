@@ -8,10 +8,10 @@ COPY . /tmp/
 
 # install upload-labs/Pass
 RUN cd /tmp/ &&\
-    git clone https://github.com/clriseaa/docker-uploadlabs.git &&\
+    git clone https://github.com/nyhh-n/mygit.git &&\
     rm -rf /var/www/html/Pass/* &&\
     mkdir /var/www/html/Pass/upload &&\
-    mv /tmp/docker-uploadlabs/Pass/Pass-04/* /var/www/html/Pass/ &&\
+    mv /tmp/mygit/Pass/Pass-04/* /var/www/html/Pass/ &&\
     chown www-data:www-data -R /var/www/html/ && \
     rm -rf /tmp/*
 
