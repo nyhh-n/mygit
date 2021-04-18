@@ -22,14 +22,14 @@ $ git clone https://github.com/nyhh-n/mygit.git
 创建父级镜像
 
 ```txt
-$ cd docker-uploadlabs/upload-labs/docker
+$ cd mygit/upload-labs/docker
 $ docker build -t upload-labs .
 ```
 
 创建子级镜像
 
 ```txt
-$ cd docker-uploadlabs/Pass/Pass-01
+$ cd mygit/Pass/Pass-01
 $ docker build -t upload-labs/pass01 .
 ```
 
