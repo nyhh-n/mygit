@@ -16,7 +16,7 @@
 下载upload-labs包
 
 ```txt
-$ git clone https://github.com/clriseaa/docker-uploadlabs.git
+$ git clone https://github.com/nyhh-n/mygit.git
 ```
 
 创建父级镜像
